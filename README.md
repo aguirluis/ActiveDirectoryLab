@@ -60,7 +60,7 @@ This lab delivers a fully functional Windows Server 2019 environment with ADDS, 
 
 - [Microsoft Docs — ADDS on Windows Server 2019](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/windows-server-2019)
 - [Proxmox VE](https://www.proxmox.com/en/)
-- [TheOldTek Website](https://github.com/aguirluis)
+- [TheOldTek Website](https://aguirluis.github.io/theoldtek)
 
 ---
 
