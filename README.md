@@ -12,7 +12,7 @@ This project demonstrates how to deploy a full **Active Directory Domain Service
 - **RAS/NAT** for routing internal lab traffic to external networks
 - **RBAC model** implemented via AD groups and GPOs
 - **Lab Clients** (Windows/Linux VMs) joined to domain and routed through NAT
-- **Virtualization Layer** using Hyper-V or Proxmox
+- **Virtualization Layer** Proxmox
 
 ![Architecture Diagram](./img/ws2019-adds-ras-dhcp.png)
 
