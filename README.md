@@ -25,7 +25,7 @@ This project demonstrates how to deploy a full **Active Directory Domain Service
 - DHCP Server Role
 - Remote Access Services (RAS) with NAT
 - Group Policy Management Console (GPMC)
-- Hyper-V / Proxmox VE (optional for virtualization)
+- Proxmox VE
 
 ---
 
