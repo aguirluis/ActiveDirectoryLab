@@ -1,6 +1,6 @@
 # 🪟 Windows Server 2019 — ADDS + RAS/NAT + DHCP
 
-This project demonstrates how to deploy a full **Active Directory Domain Services (ADDS)** environment on Windows Server 2019, integrated with **Remote Access Services (RAS/NAT)** and **Dynamic Host Configuration Protocol (DHCP)**. Designed for homelab enthusiasts and cybersecurity professionals, it replicates enterprise-grade identity and network services in a compact, virtualized home network setup.
+This project demonstrates how to deploy a full **Active Directory Domain Services (ADDS)** environment on Windows Server 2019, integrated with **Remote Access Services (RAS/NAT)** and **Dynamic Host Configuration Protocol (DHCP) with one scope**. Designed for homelab enthusiasts and cybersecurity professionals, it replicates enterprise-grade identity and network services in a compact, virtualized home network setup.
 
 ---
 
@@ -28,6 +28,16 @@ This project demonstrates how to deploy a full **Active Directory Domain Service
 - Proxmox VE
 
 ---
+## Network Setup
+- Domain: mydomain.local
+- DC Internal NIC: 172.16.0.1
+- DHCP Scope: 172.16.0.100–200
+- Gateway: 172.16.0.1
+- DNS: 172.16.0.1
+- File Server: 172.16.0.2
+
+## SOP
+See [docs/sop.md](docs/sop.md) for step-by-step instructions.
 
 ## 🧠 Role-Based Access Control (RBAC)
 
